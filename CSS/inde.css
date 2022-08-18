@@ -1,0 +1,219 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav{
+    width: 100%;
+    min-height: 10vh;
+    background-color: rgb(84, 107, 46);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+nav section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+section.logo{
+    align-items: center;
+    justify-content: flex-start;
+}
+
+section.items{
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+img.picture{
+    width: 50px;
+    height: 30px;
+}
+
+article{
+    width: 100%;
+    min-height: 90vh;
+    background-image: url(../IMG/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article div{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+article div h1{
+    color: white;
+    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 5em;
+    margin-bottom: 15px;
+}
+
+article div p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+article div a{
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 16px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article.intro{
+    background-color: #546b2e;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: none;
+    padding: 15px;
+}
+
+article.intro div.introTex{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+article.intro div.logo{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+div.introTex h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+div.introTex p{
+    width: 100%;
+    text-align: justify;
+    font-size: 25px;
+}
+
+article.objetivos{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: none;
+    background-color: white;
+}
+
+section.datas{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.ob h1{
+    color: black;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+div.generales{
+    width: 100%;
+    min-height: 100%;
+}
+
+div.generales h1{
+    color: black;
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+
+div.generales p{
+    width: 70%;
+    text-align: justify;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+}
+
+div.especificos{
+    width: 100%;
+    min-height: 100%;
+}
+
+div.especificos h1{
+    color: black;
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+
+div.especificos ol{
+    width: 70%;
+    text-align: justify;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
